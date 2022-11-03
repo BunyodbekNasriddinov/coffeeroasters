@@ -360,7 +360,7 @@ img {
 //***COFFEES***//
 //************//
 .coffees {
-  padding: 136px 0 188px;
+  padding: 136px 0 200px;
 }
 
 .coffees__inner {
@@ -718,7 +718,10 @@ img {
   }
 
   .choose-list__text-box {
-    width: 279px;
+    .choose__text-box {
+      max-width: 212px;
+      margin: 0 auto 86px;
+    }
   }
 
   .choose-list__title {
