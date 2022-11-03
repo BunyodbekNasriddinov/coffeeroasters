@@ -599,7 +599,7 @@ img {
 //************//
 @media only screen and (max-width: 768px) {
   .choose__inner {
-    padding: 56px 70px;
+    padding: 56px 70px 368px;
     background-color: #2c343e;
     border-radius: 10px;
     text-align: center;
@@ -619,14 +619,15 @@ img {
     line-height: 25px;
   }
 
-.choose__list-box {
-  width: 100%;
-  max-width: 573px;
-  margin: 0 auto;
-}
+  .choose__list-box {
+    position: relative;
+    width: 100%;
+    max-width: 573px;
+    display: block;
+    margin: 0 auto;
+  }
 
   .choose-list {
-    position: relative;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -636,8 +637,6 @@ img {
   }
 
   .choose__item {
-    position: absolute;
-    top: 10px;
     display: flex;
     padding: 41px 48px 70px;
     width: 100%;
@@ -661,7 +660,7 @@ img {
     padding: 0;
     text-align: left;
   }
-  
+
   .choose-list__title:last-child {
     margin: 67px 0 0;
   }
@@ -675,23 +674,89 @@ img {
     line-height: 25px;
     text-align: left;
   }
-  
-
 }
 
 @media only screen and (max-width: 657px) {
+  .choose__item {
+    padding: 30px 40px 50px;
+  }
+
+  .choose__pic {
+    margin-right: 25px;
+  }
+
+  .choose-list__text {
+    font-size: 12px;
+    line-height: 20 px;
+  }
 }
 
 //************//
 //***MOBILE***//
 //************//
 @media only screen and (max-width: 576px) {
+  .choose__inner {
+    padding: 56px 24px 661px;
+  }
+
+  .choose__item {
+    display: block;
+    padding: 72px 48px 48px;
+    width: 100%;
+    max-width: 350px;
+    background-color: #0e8784;
+    border-radius: 8px;
+  }
+
+  .choose__item + .choose__item {
+    margin-top: 24px;
+    margin-left: 0;
+  }
+
+  .choose__pic {
+    margin: 0;
+  }
+
+  .choose-list__text-box {
+    width: 279px;
+  }
+
+  .choose-list__title {
+    margin: 56px 0 24px;
+    text-align: center;
+  }
+
+  .choose-list__text {
+    text-align: center;
+  }
+
 }
 
 @media only screen and (max-width: 390px) {
+  .choose-list__title {
+    margin: 56px 0 24px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .choose-list__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 
 @media only screen and (max-width: 334px) {
+  .choose-list__title {
+    margin: 56px 0 24px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .choose-list__text {
+    margin: 56px 0 24px;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
 
 //****************//
