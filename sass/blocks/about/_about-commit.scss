@@ -1,0 +1,119 @@
+.commit {
+  padding: 168px 85px 244px;
+}
+
+.commit__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.commit__pic {
+  width: 281px;
+  height: 470px;
+  border-radius: 8px;
+}
+
+.commit__content {
+  width: 100%;
+  max-width: 540px;
+  padding: 90px 0;
+}
+
+.commit__title {
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333d4b;
+}
+
+.commit__text {
+  margin: 0;
+  padding: 0;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+//************//
+//***TABLET***//
+//************//
+
+@media only screen and (max-width: 769px) {
+  .commit {
+    padding: 144px 0px 330px;
+  }
+  .commit__content {
+    max-width: 339px;
+    padding: 0;
+  }
+
+  .commit__title {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  .commit__text {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .commit__content {
+    max-width: 360px;
+  }
+  .commit__title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .commit__text {
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
+
+//************//
+//***MOBILE***//
+//************//
+
+@media only screen and (max-width: 576px) {
+  .commit {
+    padding: 120px 24px 198px;
+  }
+
+  .commit__inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .commit__text-inner {
+    max-width: 327px;
+    margin: 0 auto;
+  }
+
+  .commit__title {
+    margin-top: 48px;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+
+  .commit__text {
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}

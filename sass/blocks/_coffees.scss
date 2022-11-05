@@ -1,0 +1,146 @@
+//*************//
+//***COFFEES***//
+//************//
+.coffees {
+  padding: 136px 0 200px;
+}
+
+.coffees__inner {
+  position: relative;
+  padding: 126px 0 0;
+  background-image: url("../images/coffees-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 1111px 196px;
+  background-position: top -50px center;
+}
+
+.coffee-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.coffee-list__title {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #333d4b;
+}
+
+.coffee-list__text-box {
+  width: 100%;
+  max-width: 255px;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+}
+
+//************//
+//***TABLET***//
+//************//
+@media only screen and (max-width: 768px) {
+  .coffees {
+    padding: 145px 40px;
+  }
+
+  .coffees__inner {
+    padding: 50px 0 0;
+    background-image: url("../images/coffees-bgi-tablet.png");
+    background-size: 100% 130px;
+    background-position: top center;
+  }
+
+  .coffee-list {
+    flex-direction: column;
+  }
+
+  .coffees__item {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-left: 40px;
+  }
+
+  .coffees__item + .coffees__item {
+    margin-top: 32px;
+  }
+
+  .coffee-list__text-box {
+    max-width: 282px;
+  }
+
+  .coffee-list__title {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: left;
+  }
+
+  .coffee-list__text {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 657px) {
+  .coffees {
+    padding: 145px 10px;
+  }
+
+  .coffees__item {
+    margin-left: 12px;
+  }
+}
+
+//************//
+//***MOBILE***//
+//************//
+@media only screen and (max-width: 576px) {
+  .coffees {
+    padding: 120px 45px;
+  }
+
+  .coffees__inner {
+    background-image: url("../images/coffees-bgi.png");
+    background-size: 100% 72px;
+    background-position: top center;
+  }
+
+  .coffees__item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .coffee-list__title {
+    text-align: center;
+  }
+
+  .coffee-list__text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .coffees {
+    padding: 120px 30px;
+  }
+
+  .coffee-list__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+//*****************//
+//***COFFEES END***//
+//*****************//

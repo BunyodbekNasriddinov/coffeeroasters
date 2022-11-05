@@ -1,0 +1,31 @@
+.about-hero {
+  padding: 43px 0;
+}
+
+.about-hero__inner {
+  padding: 137px 85px;
+  background-image: url("../../../images/about-hero-bgi.jpg");
+}
+
+//************//
+//***TABLET***//
+//************//
+
+@media only screen and (max-width: 769px) {
+  .about-hero__inner {
+    padding: 118px 58px;
+    background-image: url("../../../images/about-hero-bgi-tablet.jpg");
+  }
+}
+
+//************//
+//***MOBILE***//
+//************//
+
+@media only screen and (max-width: 576px) {
+  .about-hero__inner {
+    padding: 111px 24px 87px;
+    background-image: url("../../../images/about-hero-bgi-mobile.jpg");
+  }
+}
+
