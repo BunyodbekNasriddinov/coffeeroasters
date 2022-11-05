@@ -6,7 +6,7 @@
 .quality__bgi {
   position: absolute;
   top: 136px;
-  right: 85px;
+  left: calc(50% + 130px);
   z-index: 2;
   border-radius: 10px;
 }
@@ -63,6 +63,7 @@
   }
 
   .quality__bgi {
+    left: calc(50% - 280px);
     width: 573px;
     height: 320px;
   }
@@ -98,6 +99,7 @@
   }
 
   .quality__bgi {
+    left: calc(50% - 140px);
     margin: 0 auto;
     max-width: 279px;
     height: 156px;

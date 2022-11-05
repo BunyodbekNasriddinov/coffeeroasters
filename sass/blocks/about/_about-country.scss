@@ -114,7 +114,6 @@
 
   .country__list {
     align-items: center;
-    // justify-content: center;
     flex-direction: column;
 
   }
@@ -132,8 +131,4 @@
   .country__name {
     margin-bottom: 22px;
   }
-}
-
-@media only screen and (max-width: 450px) {
-
 }
