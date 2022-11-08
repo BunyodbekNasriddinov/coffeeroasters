@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./icons/icon/all.min.css" />
+    <link rel="stylesheet" href="./icons/icon/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Coffeeroaster</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__inner">
+          <a class="logo" href="./index.html">
+            <img
+              class="logo__pic"
+              width="236"
+              height="26"
+              src="./images/site-logo.svg"
+              alt="Site logo"
+            />
+          </a>
+          <nav class="navbar">
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a class="navbar__link" href="./index.html">home</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="./about.html">about us</a>
+              </li>
+              <li class="navbar__item">
+                <a class="navbar__link" href="#">create your plan</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="menu-btn main-btn" type="button">
+            <img
+              class="menu-btn__pic"
+              width="16"
+              height="15"
+              src="./images/menu-btn-logo.svg"
+              alt="Menu button icon"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero plan-hero">
+        <div class="container">
+          <div class="hero__inner plan-hero__inner">
+            <div class="hero__content">
+              <h2 class="hero__title">Great coffee made simple.</h2>
+              <div class="hero__text-box">
+                <p class="hero__text">
+                  Start your mornings with the world’s best coffees. Try our
+                  expertly curated artisan coffees from our best roasters
+                  delivered directly to your door, at your schedule.
+                </p>
+              </div>
+              <a class="hero__link main-btn" href="#">Create your plan</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="works">
+        <div class="container">
+          <div class="works__inner">
+            <h2 class="works__title">How it works</h2>
+            <div class="line-circle">
+              <span class="circle circle-1"></span>
+              <span class="circle circle-2"></span>
+              <span class="circle circle-3"></span>
+            </div>
+            <ol class="works__list">
+              <li class="works-list__item">
+                <span class="works-list__number">01</span>
+                <h2 class="works-list__title">Pick your coffee</h2>
+                <p class="works-list__text">
+                  Select from our evolving range of artisan coffees. Our beans
+                  are ethically sourced and we pay fair prices for them. There
+                  are new coffees in all profiles every month for you to try
+                  out.
+                </p>
+              </li>
+              <li class="works-list__item">
+                <span class="works-list__number">02</span>
+                <h2 class="works-list__title">Choose the frequency</h2>
+                <p class="works-list__text">
+                  Customize your order frequency, quantity, even your roast
+                  style and grind type. Pause, skip or cancel your subscription
+                  with no commitment through our online portal.
+                </p>
+              </li>
+              <li class="works-list__item">
+                <span class="works-list__number">03</span>
+                <h2 class="works-list__title">Receive and enjoy!</h2>
+                <p class="works-list__text">
+                  We ship your package within 48 hours, freshly roasted. Sit
+                  back and enjoy award-winning world-class coffees curated to
+                  provide a distinct tasting experience.
+                </p>
+              </li>
+            </ol>
+            <a class="works-list__link main-btn" href="#">Create your plan</a>
+          </div>
+        </div>
+      </section>
+      <section class="poll">
+        <h2 class="visually-hidden">Lorem ipsum dolor sit amet.</h2>
+        <div class="container">
+          <div class="poll__inner">
+            <ul class="control">
+              <li class="control__item">
+                <h3 class="control__title active-control">
+                  <span class="control__number">01</span> Preferences
+                </h3>
+              </li>
+              <li class="control__item">
+                <h3 class="control__title">
+                  <span class="control__number">02</span> Bean Type
+                </h3>
+              </li>
+              <li class="control__item">
+                <h3 class="control__title">
+                  <span class="control__number">03</span> Quantity
+                </h3>
+              </li>
+              <li class="control__item">
+                <h3 class="control__title">
+                  <span class="control__number">04</span> Grind Option
+                </h3>
+              </li>
+              <li class="control__item">
+                <h3 class="control__title">
+                  <span class="control__number">05</span> Deliveries
+                </h3>
+              </li>
+            </ul>
+            <form
+              class="poll__form"
+              action="https://echo.htmlacademy.ru"
+              method="post"
+            >
+              <details class="poll__details" open>
+                <summary clas="poll__summary">
+                  How do you drink your coffee?
+                </summary>
+                <ul class="poll__list">
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                      <h4 class="poll__name">Capsule</h4>
+                      <p class="poll__desc">
+                        Compatible with Nespresso systems and similar brewers
+                      </p>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                      <h4 class="poll__name">Filter</h4>
+                      <p class="poll__desc">
+                        For pour over or drip methods like Aeropress, Chemex,
+                        and V60
+                      </p>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                      <h4 class="poll__name">Espresso</h4>
+                      <p class="poll__desc">
+                        Dense and finely ground beans for an intense, flavorful
+                        experience
+                      </p>
+                    </label>
+                  </li>
+                </ul>
+              </details>
+              <details class="poll__details">
+                <summary clas="poll__summary">What type of coffee?</summary>
+                <ul class="poll__list">
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                      <h4 class="poll__name">Single Origin</h4>
+                      <p class="poll__desc">
+                        Distinct, high quality coffee from a specific
+                        family-owned farm
+                      </p>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                      <h4 class="poll__name">Decaf</h4>
+                      <p class="poll__desc">
+                        Just like regular coffee, except the caffeine has been
+                        removed
+                      </p>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                      <h4 class="poll__name">Blended</h4>
+                      <p class="poll__desc">
+                        Combination of two or three dark roasted beans of
+                        organic coffees
+                      </p>
+                    </label>
+                  </li>
+                </ul>
+              </details>
+              <details class="poll__details">
+                <summary clas="poll__summary">How much would you like?</summary>
+                <ul class="poll__list">
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                    <h4 class="poll__name">250g</h4>
+                    <p class="poll__desc">
+                      Perfect for the solo drinker. Yields about 12 delicious
+                      cups.
+                    </p>
+                    </label>
+                  </li>
+                  <li class="poll__item">
+                    <label>
+                      <input
+                        class="poll__input visually-hidden"
+                        type="text"
+                        name="coffeeType"
+                      />
+                    <h4 class="poll__name">500g</h4>
+                    <p class="poll__desc">
+                      Perfect option for a couple. Yields about 40 delectable
+                      cups.
+                    </p>
+                  </li>
+                  <li class="poll__item">
+                    <h4 class="poll__name">1000g</h4>
+                    <p class="poll__desc">
+                      Perfect for offices and events. Yields about 90 delightful
+                      cups.
+                    </p>
+                  </li>
+                </ul>
+              </details>
+              <details class="poll__details">
+                <summary clas="poll__summary">Want us to grind them?</summary>
+                <ul class="poll__list">
+                  <li class="poll__item">
+                    <h4 class="poll__name">Wholebean</h4>
+                    <p class="poll__desc">
+                      Best choice if you cherish the full sensory experience
+                    </p>
+                  </li>
+                  <li class="poll__item">
+                    <h4 class="poll__name">Filter</h4>
+                    <p class="poll__desc">
+                      For drip or pour-over coffee methods such as V60 or
+                      Aeropress
+                    </p>
+                  </li>
+                  <li class="poll__item">
+                    <h4 class="poll__name">Cafetiére</h4>
+                    <p class="poll__desc">
+                      Course ground beans specially suited for french press
+                      coffee
+                    </p>
+                  </li>
+                </ul>
+              </details>
+              <details class="poll__details">
+                <summary clas="poll__summary">
+                  How often should we deliver?
+                </summary>
+                <ul class="poll__list">
+                  <li class="poll__item">
+                    <h4 class="poll__name">Every week</h4>
+                    <p class="poll__desc">
+                      $7.20 per shipment. Includes free first-class shipping.
+                    </p>
+                  </li>
+                  <li class="poll__item">
+                    <h4 class="poll__name">Every 2 weeks</h4>
+                    <p class="poll__desc">
+                      $9.60 per shipment. Includes free priority shipping.
+                    </p>
+                  </li>
+                  <li class="poll__item">
+                    <h4 class="poll__name">Every month</h4>
+                    <p class="poll__desc">
+                      $12.00 per shipment. Includes free priority shipping.
+                    </p>
+                  </li>
+                </ul>
+              </details>
+              <button
+                class="poll__btn"
+                type="submit"
+                aria-label="Create my plan submit button!"
+              >
+                Create my plan!
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <a class="footer-logo" href="./index.html">
+            <img
+              class="logo__pic"
+              width="236"
+              height="26"
+              src="./images/footer-site-logo.svg"
+              alt="Site logo"
+            />
+          </a>
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a class="footer__link" href="./index.html">home</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="./about.html">about us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">create your plan</a>
+            </li>
+          </ul>
+          <ul class="social__list">
+            <li class="social__item">
+              <a
+                class="fa-brands fa-facebook-square social__link"
+                href="./index.html"
+              ></a>
+            </li>
+            <li class="social__item">
+              <a
+                class="fa-brands fa-twitter social__link"
+                href="./index.html"
+              ></a>
+            </li>
+            <li class="social__item">
+              <a
+                class="fa-brands fa-instagram social__link"
+                href="./index.html"
+              >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
